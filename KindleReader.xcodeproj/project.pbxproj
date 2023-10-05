@@ -14,6 +14,7 @@
 		26E43F1D2ACC5EF4005A79A0 /* KindleReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E43F1C2ACC5EF4005A79A0 /* KindleReaderTests.swift */; };
 		26E43F272ACC5EF4005A79A0 /* KindleReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E43F262ACC5EF4005A79A0 /* KindleReaderUITests.swift */; };
 		26E43F292ACC5EF4005A79A0 /* KindleReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E43F282ACC5EF4005A79A0 /* KindleReaderUITestsLaunchTests.swift */; };
+		26E43F362ACD63F9005A79A0 /* SelectKindleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E43F352ACD63F9005A79A0 /* SelectKindleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		26E43F222ACC5EF4005A79A0 /* KindleReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E43F262ACC5EF4005A79A0 /* KindleReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleReaderUITests.swift; sourceTree = "<group>"; };
 		26E43F282ACC5EF4005A79A0 /* KindleReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26E43F352ACD63F9005A79A0 /* SelectKindleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectKindleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				26E43F0E2ACC5EF4005A79A0 /* Assets.xcassets */,
 				26E43F102ACC5EF4005A79A0 /* Main.storyboard */,
 				26E43F132ACC5EF4005A79A0 /* KindleReader.entitlements */,
+				26E43F352ACD63F9005A79A0 /* SelectKindleViewController.swift */,
 			);
 			path = KindleReader;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26E43F0D2ACC5EF2005A79A0 /* ViewController.swift in Sources */,
+				26E43F362ACD63F9005A79A0 /* SelectKindleViewController.swift in Sources */,
 				26E43F0B2ACC5EF2005A79A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8957HHS4ZA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -447,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8957HHS4ZA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
